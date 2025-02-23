@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "## Описание Узел реализует метод шести шляп мышления Эдварда де Боно для анализа проблем и принятия решений. Использует LangChain для генерации промптов и обработки ответов.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.5",
+    "jest": "^29.7.0",
+    "langchain": "^0.3.19",
+    "n8n-core": "^1.14.1",
+    "n8n-workflow": "^1.70.0",
+    "openai": "^4.85.4",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
